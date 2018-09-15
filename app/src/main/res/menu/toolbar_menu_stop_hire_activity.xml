@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/searchClient"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always|collapseActionView"
+        android:icon="@drawable/icon_search"
+        android:title="Поиск"/>
+
+    <item
+        android:id="@+id/camera"
+        android:icon="@drawable/icon_camera_white"
+        android:title="@string/TextScanBarcode"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/dopService"
+        android:icon="@drawable/icon_dop_service_w"
+        android:title="Доп. услуги"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/print"
+        android:icon="@drawable/icon_print"
+        android:title="Печать"
+        app:showAsAction="ifRoom"/>
+</menu>

@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "291080910648",
+    "firebase_url": "https://tachki-na-prokachku.firebaseio.com",
+    "project_id": "tachki-na-prokachku",
+    "storage_bucket": "tachki-na-prokachku.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291080910648:android:bd8766b668f1d491",
+        "android_client_info": {
+          "package_name": "com.tachkinaprokachku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "291080910648-7juu14npfvnpcakahsp5tafv1cgbi75o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tachkinaprokachku",
+            "certificate_hash": "4ca66e00f12352e2e9a734f983843dc3bca24035"
+          }
+        },
+        {
+          "client_id": "291080910648-d7jut0hvpnvi83g0op307nehg34p17h2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAP0I2A0ocPVDflPhPQgLzktvLbj-smfOo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "291080910648-d7jut0hvpnvi83g0op307nehg34p17h2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291080910648:android:94d56b83ba5f0aae",
+        "android_client_info": {
+          "package_name": "ru.landmark.tnp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "291080910648-o3sgm8ftcopi56luv4vps2j2njfq1b7s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.landmark.tnp",
+            "certificate_hash": "94f570232630bb11862e5ba11fb3a4ffc16f5d9e"
+          }
+        },
+        {
+          "client_id": "291080910648-b5j2h1icnkt4fvj5eu15gp7lb6jh51tg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.landmark.tnp",
+            "certificate_hash": "0886f993814fc7df8dbeb1a66db0659a99fffa88"
+          }
+        },
+        {
+          "client_id": "291080910648-d7jut0hvpnvi83g0op307nehg34p17h2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAP0I2A0ocPVDflPhPQgLzktvLbj-smfOo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "291080910648-d7jut0hvpnvi83g0op307nehg34p17h2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

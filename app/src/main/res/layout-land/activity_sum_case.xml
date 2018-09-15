@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_sum_case"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ru.landmark.tnp.SumCaseActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/icon_money" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:theme="@style/CustomTextInputLayout"
+                android:id="@+id/textRemoveMoney">
+
+                <EditText
+                    android:layout_width="500dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Сумма для вычета или добавления в кассу"
+                    android:textColor="@color/colorTextSecondary"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/icon_comment" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:theme="@style/CustomTextInputLayout"
+                android:id="@+id/textComment">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/TextCommentMoney"
+                    android:textColor="@color/colorTextSecondary"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:text="Сумма в кассе: 1000 руб."
+            android:id="@+id/textSumm"/>
+
+        <Button
+            android:layout_marginTop="16dp"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_button_dark"
+            android:textColor="#fff"
+            android:text="Добавить в кассу"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:stateListAnimator="@null"
+            android:id="@+id/buttonAddMoney"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_marginTop="16dp"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_button_dark"
+            android:textColor="#fff"
+            android:text="@string/TextRemoveMoney"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:stateListAnimator="@null"
+            android:id="@+id/buttonRemoveMoney"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

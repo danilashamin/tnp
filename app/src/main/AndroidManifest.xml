@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ru.landmark.tnp">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".AddConstClientActivity" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="ru.landmark.tnp"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/image_path" />
+        </provider>
+
+        <activity android:name=".ConstClientsActivity" />
+        <activity android:name=".TariffsActivity" />
+        <activity android:name=".AddTariffActivity" />
+        <activity android:name=".StartHireActivity" />
+        <activity android:name=".ChangeTariffActivity" />
+        <activity android:name=".ClientSetParametrsActivity" />
+        <activity android:name=".StopHireActivity" />
+        <activity android:name=".ReportActivity" />
+        <activity android:name=".SearchPrintActivity" />
+        <activity android:name=".SumCaseActivity" />
+        <activity android:name=".ReportMainActivity" />
+        <activity android:name=".ReportMoneyActivity" />
+        <activity android:name=".GenerateKeyActivity" />
+        <activity android:name=".RemoteControlActivity" />
+        <activity android:name=".TextRulesActivity" />
+        <activity android:name=".AddRemoteControl" />
+        <activity android:name=".RemoteAppActivity" />
+        <activity android:name=".DopServiceActivity" />
+        <activity android:name=".AddServiceActivity" />
+        <activity android:name=".SaleDopActivity" />
+        <activity android:name=".DopReportActivity" />
+        <activity android:name=".PrintCheck" />
+        <activity android:name=".InfoCartActivity" />
+        <activity android:name=".InfoHireActivity" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".RequisitesActivity"></activity>
+    </application>
+
+</manifest>

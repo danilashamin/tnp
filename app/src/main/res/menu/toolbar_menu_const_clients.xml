@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/searchClient"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always|collapseActionView"
+        android:icon="@drawable/icon_search"
+        android:title="Поиск"/>
+
+    <item
+        android:id="@+id/camera"
+        android:icon="@drawable/icon_camera_white"
+        android:title="@string/TextScanBarcode"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/addClient"
+        android:icon="@drawable/icon_add"
+        android:title="@string/TextAddConstClient"
+        app:showAsAction="ifRoom"/>
+</menu>

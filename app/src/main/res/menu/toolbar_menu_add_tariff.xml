@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/addTime"
+        android:icon="@drawable/icon_add_time"
+        android:title="@string/TextEditTariff"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/addClient"
+        android:icon="@drawable/icon_add"
+        android:title="@string/TextAddTariff"
+        app:showAsAction="ifRoom"/>
+</menu>

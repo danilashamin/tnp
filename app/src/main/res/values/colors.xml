@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FDD835</color>
+    <color name="colorPrimaryDark">#FBC02D</color>
+    <color name="colorAccent">#FFC107</color>
+    <color name="colorLightPrimary">#fff9c4</color>
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorTextPrimaryInverse">#ffffff</color>
+    <color name="colorTextSecondary">#757575</color>
+    <color name="colorDivider">#5c48b255</color>
+
+    <color name="colorTextSecondarySec">#FDD835</color>
+    <color name="colorBackground">#ffffff</color>
+    <color name="colorForeground">#ffffff</color>
+    <color name="colorNavigationBar">@color/colorPrimaryDark</color>
+
+    <color name="colorIcon">#212121</color>
+    <color name="colorTextHint">@color/colorPrimary</color>
+    <color name="colorControlNormal">@color/colorPrimary</color>
+    <color name="colorControlActivated">@color/colorPrimary</color>
+    <color name="colorError">#E53935</color>
+
+    <color name="colorSwitchActivated">@color/md_yellow_900</color>
+    <color name="colorSwitchNormal">@color/md_yellow_200</color>
+    <color name="colorSwitchForeground">#FFF</color>
+
+    <color name="colorEditTextActivated">#FFF</color>
+    <color name="colorEditText">#FFF</color>
+    <color name="colorEditTextHint">#FFF</color>
+
+    <color name="backTr">#FDD835</color>
+    <color name="backTrActive">#FBC02D</color>
+</resources>

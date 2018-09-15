@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/addTariff"
+        android:icon="@drawable/icon_add"
+        android:title="@string/TextAddTariff"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/play"
+        android:icon="@drawable/icon_play"
+        android:title="@string/TextPlay"
+        app:showAsAction="ifRoom"/>
+</menu>

@@ -1,0 +1,88 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="android:colorForeground">@color/colorForeground</item>
+        <item name="android:textColorPrimary">@color/md_white_1000</item>
+        <item name="android:textColorPrimaryInverse">@color/colorTextPrimaryInverse</item>
+        <item name="android:textColorSecondary">@color/md_white_1000</item>
+
+        <item name="material_drawer_background">@color/colorBackground</item>
+        <item name="material_drawer_primary_text">#88938C</item>
+
+        <item name="material_drawer_secondary_text">#88938C</item>
+
+        <item name="material_drawer_selected">#FAFAFA</item>
+        <item name="material_drawer_selected_text">#88938C</item>
+        <item name="material_drawer_header_selection_text">#FFFFFF</item>
+        <item name="android:alertDialogTheme">@style/AlertDialogTheme</item>
+    </style>
+
+    <style name="CustomTextInputLayout" parent="TextAppearance.AppCompat">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/colorTextSecondarySec</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+        <item name="android:textSize">18sp</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">@color/colorTextSecondarySec</item>
+        <item name="colorControlNormal">@color/colorTextSecondarySec</item>
+        <item name="colorControlActivated">@color/colorTextSecondarySec</item>
+        <item name="textColorError">@color/colorError</item>
+        <item name="android:textColorHighlight">@color/colorError</item>
+    </style>
+
+    <style name="CustomTextInputLayoutWhite" parent="TextAppearance.AppCompat">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">#fff</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">18sp</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">#fff</item>
+        <item name="colorControlNormal">#fff</item>
+        <item name="colorControlActivated">#fff</item>
+        <item name="textColorError">@color/colorError</item>
+        <item name="android:textColorHighlight">@color/colorError</item>
+        <item name="android:textColorLink">@color/colorError</item>
+    </style>
+
+    <style name="CustomSwitch" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/colorSwitchActivated</item>
+        <item name="colorSwitchThumbNormal">@color/colorSwitchNormal</item>
+        <item name="android:colorForeground">@color/colorSwitchForeground</item>
+    </style>
+
+    <style name="CustomEditText" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/colorEditText</item>
+        <item name="colorControlActivated">@color/colorEditTextActivated</item>
+        <item name="android:textColorHint">@color/colorEditTextHint</item>
+    </style>
+
+    <style name="AlertDialogTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
+        <item name="android:windowTitleStyle">@color/md_black_1000</item>
+        <item name="android:textAppearanceMedium">@color/md_black_1000</item>
+        <item name="android:borderlessButtonStyle">@null</item>
+        <item name="android:buttonBarStyle">@null</item>
+    </style>
+
+    <style name="CustomToolbarStyle" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:colorBackground">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/md_white_1000</item>
+    </style>
+
+    <style name="CustomCheckBox" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/colorPrimary</item>
+        <item name="colorControlActivated">@color/colorPrimaryDark</item>
+    </style>
+
+</resources>
